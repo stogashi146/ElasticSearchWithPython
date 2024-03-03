@@ -1,7 +1,7 @@
 # import_data_to_es.py
 
 import json
-from elasticsearch import Elasticsearch
+from elasticsearch7 import Elasticsearch
 
 with open('rakuten_books.json','r') as f:
     rakuten_books=json.load(f)

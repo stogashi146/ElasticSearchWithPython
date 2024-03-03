@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
-elasticsearch = "*"
+flask = "*"
+elasticsearch7 = "*"
 
 [dev-packages]
 
